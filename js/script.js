@@ -12,7 +12,7 @@ function tambah() {
        alert("Maaf  yang anda masukan bukan angka!");
         
     } else {
-        jumlah = angka1 ^ angka2;
+        jumlah = angka1 + angka2;
         alert(jumlah);
 
     }
