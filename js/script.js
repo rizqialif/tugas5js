@@ -8,12 +8,13 @@ function tambah() {
     logic jika mahasiwa sudah input namanya ada salam
     jika tidak input namanya, ada pesan belum input nama
     */
-    if (angka1 === Number && angka2 === Number) {
-        jumlah = angka1 ^ angka2;
+    if (isNaN(angka1)|| isNaN(angka2)) {
+       alert("Maaf  yang anda masukan bukan angka!");
+        
+    } else {
+        jumlah = angka1 + angka2;
         alert(jumlah);
 
-    } else {
-        alert("Maaf  yang anda masukan bukan angka!");
     }
 }
 
@@ -27,12 +28,13 @@ function pengurangan() {
     logic jika mahasiwa sudah input namanya ada salam
     jika tidak input namanya, ada pesan belum input nama
     */
-    if (angka1 === Number && angka2 === Number) {
-        jumlah = angka1 - angka2;
+    if (isNaN(angka1)|| isNaN(angka2)) {
+        alert("Maaf  yang anda masukan bukan angka!");
+     
+    } else {
+           jumlah = angka1 - angka2;
         alert(jumlah);
 
-    } else {
-        alert("Maaf  yang anda masukan bukan angka!");
     }
 }
 
@@ -46,12 +48,13 @@ function perkalian() {
     logic jika mahasiwa sudah input namanya ada salam
     jika tidak input namanya, ada pesan belum input nama
     */
-    if (angka1 === Number && angka2 === Number) {
-        jumlah = angka1 * angka2;
-        alert(jumlah);
+    if (isNaN(angka1)|| isNaN(angka2)) {
+        alert("Maaf  yang anda masukan bukan angka!");
+        
 
     } else {
-        alert("Maaf  yang anda masukan bukan angka!");
+        jumlah = angka1 * angka2;
+        alert(jumlah);
     }
 }
 
@@ -65,12 +68,13 @@ function pembagian() {
     logic jika mahasiwa sudah input namanya ada salam
     jika tidak input namanya, ada pesan belum input nama
     */
-    if (angka1 === Number && angka2 === Number) {
-        jumlah = angka1 / angka2;
+    if (isNaN(angka1)|| isNaN(angka2)) {
+        alert("Maaf  yang anda masukan bukan angka!");
+       
+    } else {
+         jumlah = angka1 / angka2;
         alert(jumlah);
 
-    } else {
-        alert("Maaf  yang anda masukan bukan angka!");
     }
 }
 
@@ -84,12 +88,14 @@ function pangkat() {
     logic jika mahasiwa sudah input namanya ada salam
     jika tidak input namanya, ada pesan belum input nama
     */
-    if (angka1 === Number && angka2 === Number) {
-        jumlah = angka1 ** angka2;
-        alert(jumlah);
+    if (isNaN(angka1)|| isNaN(angka2)) {
+         alert("Maaf  yang anda masukan bukan angka!");
+        
 
     } else {
-        alert("Maaf  yang anda masukan bukan angka!");
+       
+        jumlah = angka1 ** angka2;
+        alert(jumlah);
     }
 }
 
